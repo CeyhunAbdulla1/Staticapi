@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.all{
+    width: 100%;
+    height: auto;
+    background-color: brown;
+
+}
+.all .container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.all .container .allcard{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.all .container .allcard .card{
+    width: 230px;
+    height: 410px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    position: relative;
+
+}
+.all .container .allcard .card img{
+    width: 150px;
+    height: 180px;
+    border-radius: 15px;
+    padding: 25px;
+}
+.all .container .allcard .card span{
+    color: black;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-left: 10px;
+    display: block;
+    margin-top: 10px;
+}
+.all .container .allcard .card .category{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0 10px;
+    color: #8d94ad;
+    font-size: 14px;
+    margin-top: 16px;
+    margin-left: 0px;
+
+    box-sizing: border-box;
+}
+.all .container .allcard .card p{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #212c3a;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.all .container .allcard .card .icon1{
+    font-size: 30px;
+    color: yellow;
+    position: absolute;
+    right: 10px;
+    bottom: 30px;
+    transition: 0.6s;
+
+}
+.all .container .allcard .card .icon2{
+    font-size: 30px;
+    color: red;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    transition: 0.6s;
+}
+.all .container .allcard .card .icon1:hover{
+    color: blue;
+}
+.all .container .allcard .card .icon2:hover{
+    color: yellow;
+}
+
